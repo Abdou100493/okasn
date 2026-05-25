@@ -5,6 +5,8 @@ import Footer from './components/Footer';
 import Accueil from './pages/Accueil';
 import Annonces from './pages/Annonces';
 import DetailLogement from './pages/DetailLogement';
+import Inscription from './pages/Inscription';
+import Connexion from './pages/Connexion';
 
 function App() {
   return (
@@ -16,6 +18,8 @@ function App() {
             <Route path="/" element={<Accueil />} />
             <Route path="/annonces" element={<Annonces />} />
             <Route path="/annonces/:id" element={<DetailLogement />} />
+            <Route path="/inscription" element={<Inscription />} />
+            <Route path="/connexion" element={<Connexion />} />
           </Routes>
         </main>
         <Footer />
