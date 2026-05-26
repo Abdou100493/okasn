@@ -39,6 +39,9 @@ function Navbar() {
             <span className="text-gray-600 font-medium">
               {user.user_metadata.nom || user.email}
             </span>
+            <Link to="/publier" className="bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700">
+              Publier
+            </Link>
             <button
               onClick={handleDeconnexion}
               className="border border-red-500 text-red-500 px-4 py-2 rounded-lg hover:bg-red-50"

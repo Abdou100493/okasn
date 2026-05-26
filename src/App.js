@@ -7,6 +7,7 @@ import Annonces from './pages/Annonces';
 import DetailLogement from './pages/DetailLogement';
 import Inscription from './pages/Inscription';
 import Connexion from './pages/Connexion';
+import PublierAnnonce from './pages/PublierAnnonce';
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/annonces/:id" element={<DetailLogement />} />
             <Route path="/inscription" element={<Inscription />} />
             <Route path="/connexion" element={<Connexion />} />
+            <Route path="/publier" element={<PublierAnnonce />} />
           </Routes>
         </main>
         <Footer />
