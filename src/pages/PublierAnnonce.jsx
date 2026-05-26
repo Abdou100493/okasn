@@ -4,7 +4,7 @@ import { supabase } from '../supabase';
 
 function PublierAnnonce() {
   const navigate = useNavigate();
-  const [user, setUser] = useState(null);
+  const [, setUser] = useState(null);
   const [loading, setLoading] = useState(false);
   const [erreur, setErreur] = useState('');
   const [succes, setSucces] = useState(false);

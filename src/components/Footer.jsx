@@ -28,10 +28,10 @@ function Footer() {
         <div>
           <h3 className="text-white font-semibold mb-3">Types de biens</h3>
           <ul className="space-y-2 text-sm">
-            <li><a href="#" className="hover:text-white">Appartements</a></li>
-            <li><a href="#" className="hover:text-white">Villas</a></li>
-            <li><a href="#" className="hover:text-white">Studios</a></li>
-            <li><a href="#" className="hover:text-white">Bureaux</a></li>
+            <li><a href="/" className="hover:text-white">Appartements</a></li>
+            <li><a href="/" className="hover:text-white">Villas</a></li>
+            <li><a href="/" className="hover:text-white">Studios</a></li>
+            <li><a href="/" className="hover:text-white">Bureaux</a></li>
           </ul>
         </div>
 
